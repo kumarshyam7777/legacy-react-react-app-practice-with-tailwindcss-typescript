@@ -31,7 +31,7 @@ const Form: React.FC = () => {
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                     {/* Name Input */}
-                    <div>
+                    <div className="">
                         <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
                             Full Name
                         </label>
